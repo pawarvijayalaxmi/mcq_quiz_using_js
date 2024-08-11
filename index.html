@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz_container">
+        <form id="quiz_form" onsubmit="return submitQuiz(event)">
+            <div class="question">
+                <h1>Sample question for quiz</h1>
+                <p id="que-text"></p>
+                <div class="choices"></div>
+                <div>
+                    <p id="result"></p>
+                </div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="quiz.js"> </script> 
+</body>
+</html>
